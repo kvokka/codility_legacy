@@ -2,7 +2,7 @@
 
 https://codility.com/programmers/lessons/
 
-1. 100% comleated tasks
-2. 100% comleated tasks
-3. 100% comleated tasks
-4. 100% comleated tasks
+1. 100% completed tasks
+2. 100% completed tasks
+3. 100% completed tasks
+4. 100% completed tasks
