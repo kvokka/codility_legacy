@@ -7,4 +7,5 @@ https://codility.com/programmers/lessons/
 3. 100% completed tasks
 4. 100% completed tasks
 5. 100% completed tasks
-6. 100%/100%/100%/81%     last tack correct, miss 0.2sec at performance test.
+6. 100% completed tasks
+7. 100% completed tasks
