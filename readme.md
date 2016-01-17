@@ -9,3 +9,4 @@ https://codility.com/programmers/lessons/
 5. 100% completed tasks
 6. 100% completed tasks
 7. 100% completed tasks
+8. 100% completed tasks
