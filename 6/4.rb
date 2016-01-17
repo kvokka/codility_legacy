@@ -72,7 +72,6 @@
 #     intersect
 # end
 
-
 # def solution(a)
 #     # write your code in Ruby 2.2
 #     t=a.each_with_index.map{|x,i| [i-x,x+i,x]}.sort
@@ -105,7 +104,6 @@
 #     intersect
 # end
 
-
 # def solution(a)
 #   t=a.each_with_index.map{|x,i| [i-x,x+i,x]}.sort
 #   intersect=0
@@ -130,15 +128,15 @@
 # end
 
 def solution(a)
-    # write your code in Ruby 2.2
-    t=[]
-    a.each_with_index{|v,i| t << [i-v,1]; t<<[v+i,-1] }
-    t.sort!{|x,y|  x,y=y,x if x[0]==y[0];   x <=> y }
-    sum=d=0
-    t.each do |i|
-       sum+=d if i[1]>0  
-       d+=i[1]
-       return -1 if sum > 10_000_000
-    end
-    sum
+  # write your code in Ruby 2.2
+  t = []
+  a.each_with_index { |v, i| t << [i - v, 1]; t << [v + i, -1] }
+  t.sort! { |x, y| x, y = y, x if x[0] == y[0]; x <=> y }
+  sum = d = 0
+  t.each do |i|
+    sum += d if i[1] > 0
+    d += i[1]
+    return -1 if sum > 10_000_000
+  end
+  sum
 end
