@@ -10,5 +10,5 @@ def solution(s)
       return 0 unless stack.pop == open[close.index t]
     end
   end
-  stack.length == 0 ? 1 : 0
+  stack.empty? ? 1 : 0
 end
